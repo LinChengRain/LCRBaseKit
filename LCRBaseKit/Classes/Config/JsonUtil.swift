@@ -12,7 +12,7 @@ open class JsonUtil: NSObject {
     /**
      *  Json转对象
      */
-    open static func jsonToModel(_ jsonStr:String,_ modelType:HandyJSON.Type) ->BaseModel {
+    public static func jsonToModel(_ jsonStr:String,_ modelType:HandyJSON.Type) ->BaseModel {
         if jsonStr == "" || jsonStr.count == 0 {
             #if DEBUG
                 print("jsonoModel:字符串为空")
@@ -26,7 +26,7 @@ open class JsonUtil: NSObject {
     /**
      *  Json转数组对象
      */
-    open static func jsonArrayToModel(_ jsonArrayStr:String, _ modelType:HandyJSON.Type) ->[BaseModel] {
+    public static func jsonArrayToModel(_ jsonArrayStr:String, _ modelType:HandyJSON.Type) ->[BaseModel] {
         if jsonArrayStr == "" || jsonArrayStr.count == 0 {
             #if DEBUG
                 print("jsonToModelArray:字符串为空")
@@ -46,7 +46,7 @@ open class JsonUtil: NSObject {
     /**
      *  字典转对象
      */
-    open static func dictionaryToModel(_ dictionStr:[String:Any],_ modelType:HandyJSON.Type) -> BaseModel {
+    public static func dictionaryToModel(_ dictionStr:[String:Any],_ modelType:HandyJSON.Type) -> BaseModel {
         if dictionStr.count == 0 {
             #if DEBUG
                 print("dictionaryToModel:字符串为空")
@@ -59,7 +59,7 @@ open class JsonUtil: NSObject {
     /**
      *  对象转JSON
      */
-    open static func modelToJson(_ model:BaseModel?) -> String {
+    public static func modelToJson(_ model:BaseModel?) -> String {
         if model == nil {
             #if DEBUG
                 print("modelToJson:model为空")
@@ -72,7 +72,7 @@ open class JsonUtil: NSObject {
     /**
      *  对象转字典
      */
-    open static func modelToDictionary(_ model:BaseModel?) -> [String:Any] {
+    public static func modelToDictionary(_ model:BaseModel?) -> [String:Any] {
         if model == nil {
             #if DEBUG
                 print("modelToJson:model为空")
@@ -82,7 +82,7 @@ open class JsonUtil: NSObject {
         return (model?.toJSON())!
     }
     
-    open static func jsonDictionary(res: [String:Any]) -> String {
+    public static func jsonDictionary(res: [String:Any]) -> String {
         if (!JSONSerialization.isValidJSONObject(res)) {
             print("无法解析出JSONString")
             return " "

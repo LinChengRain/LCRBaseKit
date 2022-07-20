@@ -10,7 +10,7 @@ import UIKit
 
 open class LCCanCopyLabel: UILabel {
     
-    override var canBecomeFirstResponder: Bool { return true }
+    open override var canBecomeFirstResponder: Bool { return true }
     
     // 代码创建控件的时候有效
     override init(frame: CGRect) {
@@ -19,7 +19,7 @@ open class LCCanCopyLabel: UILabel {
     }
     
     // storyboard或xib创建控件的时候有效
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
@@ -61,7 +61,7 @@ open class LCCanCopyLabel: UILabel {
         
     }
     
-    override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
+    open override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
         
         if action == #selector(copyText) {
             return true

@@ -10,7 +10,7 @@ import UIKit
 
 open class LCTextField: UITextField {
 
-    override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
+    open override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
         
         return false
     }

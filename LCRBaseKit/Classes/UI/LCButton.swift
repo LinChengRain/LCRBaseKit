@@ -20,7 +20,7 @@ open class LCButton: UIButton {
         }
     }
     
-    open enum Position {
+    public enum Position {
         case top
         case bottom
         case left
@@ -30,13 +30,13 @@ open class LCButton: UIButton {
     private var position: Position?
     private var space: CGFloat = 0
     
-    open convenience init(_ position: Position, at space: CGFloat = 0) {
+    public convenience init(_ position: Position, at space: CGFloat = 0) {
         self.init(type: .custom)
         self.position = position
         self.space = space
     }
     
-    override func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         
         if let position = position {

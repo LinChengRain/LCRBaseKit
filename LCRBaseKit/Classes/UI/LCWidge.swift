@@ -19,7 +19,7 @@ open class LCBaseWidge: NSObject {
     ///   - backgroundColor: 背景颜色
     ///   - title: 标题
     /// - Returns: button
-    open static func buttonWith(imageName: String?, titleColor: UIColor?, titleFont: UIFont?, backgroundColor: UIColor?, title: String?) -> LCButton {
+    public static func buttonWith(imageName: String?, titleColor: UIColor?, titleFont: UIFont?, backgroundColor: UIColor?, title: String?) -> LCButton {
         let button = LCButton(type: .custom)
         button.backgroundColor = backgroundColor
         if title?.count != nil {
@@ -47,7 +47,7 @@ open class LCBaseWidge: NSObject {
     ///   - backgroundColor: 背景颜色
     ///   - title: 标题
     /// - Returns: button
-    open static func buttonWith(titleColor: UIColor?, titleFont: UIFont?, backgroundColor: UIColor?, title: String?) -> LCButton {
+    public static func buttonWith(titleColor: UIColor?, titleFont: UIFont?, backgroundColor: UIColor?, title: String?) -> LCButton {
         return LCBaseWidge.buttonWith(imageName: nil, titleColor: titleColor, titleFont: titleFont, backgroundColor: backgroundColor, title: title)
     }
     
@@ -57,7 +57,7 @@ open class LCBaseWidge: NSObject {
     ///   - imageName: 图片
     ///   - backgroundColor: 背景颜色
     /// - Returns: button
-    open static func buttonWith(imageName: String?,backgroundColor: UIColor?) -> LCButton {
+    public static func buttonWith(imageName: String?,backgroundColor: UIColor?) -> LCButton {
         return LCBaseWidge.buttonWith(imageName: imageName, titleColor: nil, titleFont: nil, backgroundColor: backgroundColor, title: nil)
     }
     
@@ -66,7 +66,7 @@ open class LCBaseWidge: NSObject {
     /// - Parameters:
     ///   - backgroundColor: 背景颜色
     /// - Returns: button
-    open static func buttonWith(backgroundColor: UIColor?) -> LCButton {
+    public static func buttonWith(backgroundColor: UIColor?) -> LCButton {
         return LCBaseWidge.buttonWith(imageName: nil, titleColor: nil, titleFont: nil, backgroundColor: backgroundColor, title: nil)
     }
     
@@ -75,7 +75,7 @@ open class LCBaseWidge: NSObject {
     /// - Parameters:
     ///   - backgroundColor: 背景颜色
     /// - Returns: button
-    open static func createLab(_ title: String?,titleColor: UIColor?, titleFont: UIFont?, backgroundColor: UIColor?) -> UILabel {
+    public static func createLab(_ title: String?,titleColor: UIColor?, titleFont: UIFont?, backgroundColor: UIColor?) -> UILabel {
         let label = UILabel()
         label.text = title
         label.font = titleFont

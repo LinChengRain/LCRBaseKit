@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LCRExtensionSwift
 private let delayTime : TimeInterval = 1.5
 private let padding : CGFloat = 12
 private let cornerRadius : CGFloat = 13.0
@@ -47,19 +48,6 @@ public class LCHud:UIView {
                                    size: CGSize(width: selfWidth,
                                                 height: selfWidth)))
         
-        
-        let topController = UIApplication.topViewController()
-        guard let controller = topController else {
-            return
-        }
-        if controller.isKind(of: CocosViewController.self) {
-            LCLog("当前主控制器是CocosViewController,不弹窗")
-           return
-        }
-        for view in  UIApplication.shared.keyWindow?.subviews ?? [] where view.isKind(of: BJYLaunchAdvert.self) {
-            LCLog("已经有BJYLaunchAdvert,不弹窗")
-            return
-        }
         
         setupUI()
 

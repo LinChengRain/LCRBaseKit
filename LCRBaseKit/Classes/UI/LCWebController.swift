@@ -12,7 +12,7 @@ import WebKit
 /// kvo 观察属性关键字
 private let  KVO_KEYWORD = "estimatedProgress"
 
-open class LCWebController: UIViewController {
+public class LCWebController: UIViewController {
     
     /** 加载 URL */
     open var url:String?
@@ -35,12 +35,12 @@ open class LCWebController: UIViewController {
         return refresh
     }()
     
-    override func viewWillAppear(_ animated: Bool) {
-           super.viewWillAppear(animated)
+    public override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         
         createProgressView()
@@ -92,17 +92,17 @@ open class LCWebController: UIViewController {
         webView.addObserver(self, forKeyPath: KVO_KEYWORD, options: .new, context: nil)
         
         if let urlString = url,urlString.count > 0 {
-             self.webView.loadHTMLString(self.autoContentForPicture(urlString), baseURL: nil)
-         }
+            self.webView.loadHTMLString(self.autoContentForPicture(urlString), baseURL: nil)
+        }
     }
     
     private func createWKWebView() {
         view.backgroundColor = .white
         let userContentController = WKUserContentController()
         let jScript = "var meta = document.createElement('meta'); meta.setAttribute('name', 'viewport'); meta.setAttribute('content', 'width=device-width,user-scalable=no');document.getElementsByTagName('head')[0].appendChild(meta); var imgs = document.getElementsByTagName('img');for (var i in imgs){imgs[i].style.maxWidth='100%';imgs[i].style.height='auto';$img[p].style.display = 'block';}"
-
+        
         let wkUScript = WKUserScript(source: jScript, injectionTime: WKUserScriptInjectionTime.atDocumentEnd, forMainFrameOnly: true)
-//        let wkUController = WKUserContentController()
+        //        let wkUController = WKUserContentController()
         // 添加自适应屏幕宽度js调用的方法
         userContentController.addUserScript(wkUScript)
         
@@ -110,11 +110,11 @@ open class LCWebController: UIViewController {
         let noneSelectScript = WKUserScript(source: javascript, injectionTime: WKUserScriptInjectionTime.atDocumentEnd, forMainFrameOnly: true)
         // 添加自适应屏幕宽度js调用的方法
         userContentController.addUserScript(noneSelectScript)
-
+        
         let configuration = WKWebViewConfiguration()
         configuration.userContentController = userContentController
         webView = WKWebView(frame: CGRect(x: 0, y: 3, width: AppFrame.kScreen_Width, height: AppFrame.kScreen_Height - AppFrame.W_Height_NavBar - 3) , configuration: configuration)
-
+        
         webView.navigationDelegate = self
         webView.scrollView.bounces = false
         webView.scrollView.showsHorizontalScrollIndicator = false
@@ -139,7 +139,7 @@ open class LCWebController: UIViewController {
     }
     
     private func createProgressView() {
-     
+        
         view.addSubview(progressView)
     }
     
@@ -161,22 +161,22 @@ open class LCWebController: UIViewController {
     private func autoContentForPicture(_ html:String) -> String{
         
         let htmlhead = "<!DOCTYPE html>" +
-            "<html> " +
-            "<head> " +
-            "<style type=\"text/css\"> " +
-            "body {font-size:15px;padding:0px;margin:0px;}" +
-            "</style> " +
-            "</head> " +
-            "<body>" +
-            "<script type='text/javascript'>" +
-            "window.onload = function(){" +
-            "var $img = document.getElementsByTagName('img');" +
-            "for(var p in  $img){" +
-            "$img[p].style.width = '100%%';" +
-            "$img[p].style.height ='auto';" +
-            "$img[p].style.display = 'block';" +
-            "}" +
-            "}" +
+        "<html> " +
+        "<head> " +
+        "<style type=\"text/css\"> " +
+        "body {font-size:15px;padding:0px;margin:0px;}" +
+        "</style> " +
+        "</head> " +
+        "<body>" +
+        "<script type='text/javascript'>" +
+        "window.onload = function(){" +
+        "var $img = document.getElementsByTagName('img');" +
+        "for(var p in  $img){" +
+        "$img[p].style.width = '100%%';" +
+        "$img[p].style.height ='auto';" +
+        "$img[p].style.display = 'block';" +
+        "}" +
+        "}" +
         "</script>"
         
         let htmlEnd = "</body></html>"
@@ -189,18 +189,18 @@ open class LCWebController: UIViewController {
 extension LCWebController:WKNavigationDelegate {
     
     ///  网络开始请求
-    func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+    public func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
         progressView.isHidden = false
     }
     /// 网络结束请求
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+    public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         refreshControl.endRefreshing()
     }
 }
 /// KVO
 extension LCWebController {
     //KVO
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    public override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == KVO_KEYWORD {
             let newValue = change![NSKeyValueChangeKey.newKey] as! CGFloat
             progressView.progress = Float(newValue)

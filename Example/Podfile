@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LCRBaseKit_Example' do
+  pod 'LCRBaseKit', :path => '../'
+
+  target 'LCRBaseKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

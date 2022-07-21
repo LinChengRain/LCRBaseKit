@@ -9,7 +9,7 @@
 import UIKit
 import HandyJSON
 
-open class BaseModel: HandyJSON {
+open class LCRBaseModel: HandyJSON {
     var status:Int = 0
     var msg:String?
 
@@ -19,7 +19,7 @@ open class BaseModel: HandyJSON {
     }
 }
 
-open class BaseDataModel<T: HandyJSON>: HandyJSON {
+open class LCRBaseDataModel<T: HandyJSON>: HandyJSON {
     
     var status:Int = 0
     var msg:String?
@@ -30,7 +30,7 @@ open class BaseDataModel<T: HandyJSON>: HandyJSON {
 }
 
 
-open class CommonModel: BaseModel {
+open class CommonModel: LCRBaseModel {
 
     var data:AnyObject?
 

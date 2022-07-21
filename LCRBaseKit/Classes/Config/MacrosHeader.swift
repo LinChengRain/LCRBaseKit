@@ -377,564 +377,565 @@ extension UIColor {
         get {return UIColor.init(lcr_hexString: "#A4D8FF")}
     }
     
-    static var kColorF5FBFF:UIColor {
+    public static var kColorF5FBFF:UIColor {
         get {return UIColor.init(lcr_hexString: "#F5FBFF")}
     }
     
-    static var kColor1851EBF:UIColor {
+    public static var kColor1851EBF:UIColor {
         get {return UIColor.init(lcr_hexString: "#1851EB")}
     }
     
-    static var kColorFDE039:UIColor {
+    public static var kColorFDE039:UIColor {
         get {return UIColor.init(lcr_hexString: "#FDE039")}
     }
     
-    static var kColor66D261:UIColor {
+    public static var kColor66D261:UIColor {
         get {return UIColor.init(lcr_hexString: "#66D261")}
     }
     
-    static var kColorFF5A3E:UIColor {
+    public static var kColorFF5A3E:UIColor {
         get {return UIColor.init(lcr_hexString: "#FF5A3E")}
     }
     
-    static var kColorAD98FF:UIColor {
+    public static var kColorAD98FF:UIColor {
         get {return UIColor.init(lcr_hexString: "#AD98FF")}
     }
 
-    static var kColorFFD5D2:UIColor {
+    public static var kColorFFD5D2:UIColor {
         get {return UIColor.init(lcr_hexString: "#FFD5D2")}
     }
 
-    static var kColor06DEA3:UIColor {
+    public static var kColor06DEA3:UIColor {
         get {return UIColor.init(lcr_hexString: "#06DEA3")}
     }
     
-    static var kColor176D55:UIColor {
+    public static var kColor176D55:UIColor {
         get {return UIColor.init(lcr_hexString: "#176D55")}
     }
     
-    static var kColor39649F:UIColor {
+    public static var kColor39649F:UIColor {
         get {return UIColor.init(lcr_hexString: "#39649F")}
     }
-    static var kColor7ED321:UIColor {
+    public static var kColor7ED321:UIColor {
         get {return UIColor.init(lcr_hexString: "#7ED321")}
     }
     
-    static var kColor3889E4:UIColor {
+    public static var kColor3889E4:UIColor {
         get {return UIColor.init(lcr_hexString: "#3889E4")}
     }
     
-    static var kColor8ECA95:UIColor {
+    public static var kColor8ECA95:UIColor {
         get {return UIColor.init(lcr_hexString: "#8ECA95")}
     }
     
-    static var kColor4E5771:UIColor {
+    public static var kColor4E5771:UIColor {
         get {return UIColor.init(lcr_hexString: "#4E5771")}
     }
     
-    static var kColorFB9B93:UIColor {
+    public static var kColorFB9B93:UIColor {
         get {return UIColor.init(lcr_hexString: "#FB9B93")}
     }
     
-    static var kColorF6F6F6:UIColor {
+    public static var kColorF6F6F6:UIColor {
         get {return UIColor.init(lcr_hexString: "#F6F6F6")}
     }
-    static var kColor828282:UIColor {
+    public static var kColor828282:UIColor {
         get {return UIColor.init(lcr_hexString: "#828282")}
     }
     
-    static var kColor707070:UIColor {
+    public static var kColor707070:UIColor {
         get {return UIColor.init(lcr_hexString: "#707070")}
     }
     
-    static var kColorFFAA39:UIColor {
+    public static var kColorFFAA39:UIColor {
         get {return UIColor.init(lcr_hexString: "#FFAA39")}
     }
     
-    static var kColorFFB801:UIColor {
+    public static var kColorFFB801:UIColor {
         get {return UIColor.init(lcr_hexString: "#FFB801")}
     }
     
-    static var kColorD53232:UIColor {
+    public static var kColorD53232:UIColor {
         get {return UIColor.init(lcr_hexString: "#D53232")}
     }
     
-    static var kColor61A360:UIColor {
+    public static var kColor61A360:UIColor {
         get {return UIColor.init(lcr_hexString: "#61A360")}
     }
     
-    static var kColorFF5C5C:UIColor {
+    public static var kColorFF5C5C:UIColor {
         get {return UIColor.init(lcr_hexString: "#FF5C5C")}
     }
     
-    static var kColorFFDB23:UIColor {
+    public static var kColorFFDB23:UIColor {
         get {return UIColor.init(lcr_hexString: "#FFDB23")}
     }
     
-    static var kColor0E58FF:UIColor {
+    public static var kColor0E58FF:UIColor {
         get {return UIColor.init(lcr_hexString: "#0E58FF")}
     }
     
-    static var kColorEF7B25:UIColor {
+    public static var kColorEF7B25:UIColor {
         get {return UIColor.init(lcr_hexString: "#EF7B25")}
     }
     
-    static var kColorFFF4EC:UIColor {
+    public static var kColorFFF4EC:UIColor {
         get {return UIColor.init(lcr_hexString: "#FFF4EC")}
     }
     
-    class var kColorC7C7CC: UIColor {
+    public class var kColorC7C7CC: UIColor {
          get {return UIColor.init(lcr_hexString: "#C7C7CC")}
     }
     
-    class var kColorE3F1FA: UIColor {
+    public class var kColorE3F1FA: UIColor {
         get {return UIColor.init(lcr_hexString: "#E3F1FA")}
     }
     
-    class var kColorF2F2F2: UIColor {
+    public class var kColorF2F2F2: UIColor {
         get {return UIColor.init(lcr_hexString: "#F2F2F2")}
     }
     
-    class var kColor8E8E93: UIColor {
+    public class var kColor8E8E93: UIColor {
         get {return UIColor.init(lcr_hexString: "#8E8E93")}
     }
     
-    class var kColorFC940C: UIColor {
+    public class var kColorFC940C: UIColor {
         get {return UIColor.init(lcr_hexString: "#FC940C")}
     }
   
-    class var kColorF4BC42: UIColor {
+    public class var kColorF4BC42: UIColor {
         get {return UIColor.init(lcr_hexString: "#F4BC42")}
     }
     
-    class var kColorFFB86D: UIColor {
+    public class var kColorFFB86D: UIColor {
         get {return UIColor.init(lcr_hexString: "#FFB86D")}
     }
     
-    class var kColorFFF700: UIColor {
+    public class var kColorFFF700: UIColor {
         get {return UIColor.init(lcr_hexString: "#FFF700")}
     }
     
-    class var kColor2E68F0: UIColor {
+    public class var kColor2E68F0: UIColor {
         get {return UIColor.init(lcr_hexString: "#2E68F0")}
     }
     
-    class var kColorFF8123: UIColor {
+    public class var kColorFF8123: UIColor {
         get {return UIColor.init(lcr_hexString: "#FF8123")}
     }
-    class var kColorBADEFF: UIColor {
+    public class var kColorBADEFF: UIColor {
         get {return UIColor.init(lcr_hexString: "#BADEFF")}
     }
-    class var kColor666666: UIColor {
+    public class var kColor666666: UIColor {
         get {return UIColor.init(lcr_hexString: "#666666")}
     }
     
-    class var kColor444465: UIColor {
+    public class var kColor444465: UIColor {
         get {return UIColor.init(lcr_hexString: "#444465")}
     }
     
-    class var kColorE0EEFF: UIColor {
+    public class var kColorE0EEFF: UIColor {
         get {return UIColor.init(lcr_hexString: "#E0EEFF")}
     }
     
-    class var kColor61619C: UIColor {
+    public class var kColor61619C: UIColor {
         get {return UIColor.init(lcr_hexString: "#61619C")}
     }
     
-    class var kColorE2E2F5: UIColor {
+    public class var kColorE2E2F5: UIColor {
         get {return UIColor.init(lcr_hexString: "#E2E2F5")}
     }
     
-    class var kColor7EB6FF: UIColor {
+    public class var kColor7EB6FF: UIColor {
         get {return UIColor.init(lcr_hexString: "#7EB6FF")}
     }
     
-    class var kColorCC7723: UIColor {
+    public class var kColorCC7723: UIColor {
         get {return UIColor.init(lcr_hexString: "#CC7723")}
     }
     
-    class var kColorFFCDCD: UIColor {
+    public class var kColorFFCDCD: UIColor {
         get {return UIColor.init(lcr_hexString: "#FFCDCD")}
     }
     
-    class var kColorAAAAAA: UIColor {
+    public class var kColorAAAAAA: UIColor {
         get {return UIColor.init(lcr_hexString: "#AAAAAA")}
     }
-    class var kColor734B37: UIColor {
+    public class var kColor734B37: UIColor {
         get {return UIColor.init(lcr_hexString: "#734B37")}
     }
     
-    class var kColor303A4D: UIColor {
+    public class var kColor303A4D: UIColor {
         get {return UIColor.init(lcr_hexString: "#303A4D")}
     }
     
-    class var kColor2451DB: UIColor {
+    public class var kColor2451DB: UIColor {
         get {return UIColor.init(lcr_hexString: "#2451DB")}
     }
     
-    class var kColor5B331F: UIColor {
+    public class var kColor5B331F: UIColor {
         get {return UIColor.init(lcr_hexString: "#5B331F")}
     }
     
-    class var kColorC7A778: UIColor {
+    public class var kColorC7A778: UIColor {
         get {return UIColor.init(lcr_hexString: "#C7A778")}
     }
     
-    class var kColorBBBBBB: UIColor {
+    public class var kColorBBBBBB: UIColor {
         get {return UIColor.init(lcr_hexString: "#BBBBBB")}
     }
     
-    class var kColorFF5703: UIColor {
+    public class var kColorFF5703: UIColor {
         get {return UIColor.init(lcr_hexString: "#FF5703")}
     }
     
-    class var kColor333333: UIColor {
+    public class var kColor333333: UIColor {
         get {return UIColor.init(lcr_hexString: "#333333")}
     }
     
-    class var kColor434364: UIColor {
+    public class var kColor434364: UIColor {
         get {return UIColor.init(lcr_hexString: "#434364")}
     }
     
-    class var kColor333354: UIColor {
+    public class var kColor333354: UIColor {
         get {return UIColor.init(lcr_hexString: "#333354")}
     }
     
-    class var kColor717196: UIColor {
+    public class var kColor717196: UIColor {
         get {return UIColor.init(lcr_hexString: "#717196")}
     }
     
-    class var kColor8E6E43: UIColor {
+    public class var kColor8E6E43: UIColor {
         get {return UIColor.init(lcr_hexString: "#8E6E43")}
     }
     
-    class var kColorF4E2BD: UIColor {
+    public class var kColorF4E2BD: UIColor {
         get {return UIColor.init(lcr_hexString: "#F4E2BD")}
     }
     
     
-    class var kColorF10F31: UIColor {
+    public class var kColorF10F31: UIColor {
         get {return UIColor.init(lcr_hexString: "#F10F31")}
     }
-    class var kColorA7692C: UIColor {
+    
+    public class var kColorA7692C: UIColor {
         get {return UIColor.init(lcr_hexString: "#A7692C")}
     }
     
-    class var kColorFFBA03: UIColor {
+    public class var kColorFFBA03: UIColor {
         get {return UIColor.init(lcr_hexString: "#FFBA03")}
     }
     
-    class var kColor8971D6: UIColor {
+    public class var kColor8971D6: UIColor {
         get {return UIColor.init(lcr_hexString: "#8971D6")}
     }
     
-    class var kColorFF9DBE: UIColor {
+    public class var kColorFF9DBE: UIColor {
         get {return UIColor.init(lcr_hexString: "#FF9DBE")}
     }
     
-    class var kColor32E8B6: UIColor {
+    public class var kColor32E8B6: UIColor {
         get {return UIColor.init(lcr_hexString: "#32E8B6")}
     }
     
-    class var kColorB34DFF: UIColor {
+    public class var kColorB34DFF: UIColor {
         get {return UIColor.init(lcr_hexString: "#B34DFF")}
     }
     
-    class var kColor643DFE: UIColor {
+    public class var kColor643DFE: UIColor {
         get {return UIColor.init(lcr_hexString: "#643DFE")}
     }
     
-    class var kColor21CFEB: UIColor {
+    public class var kColor21CFEB: UIColor {
         get {return UIColor.init(lcr_hexString: "#21CFEB")}
     }
 
-    class var kColorFF7575: UIColor {
+    public class var kColorFF7575: UIColor {
         get {return UIColor.init(lcr_hexString: "#FF7575")}
     }
     
-    class var kColorDFDFDF: UIColor {
+    public class var kColorDFDFDF: UIColor {
         get {return UIColor.init(lcr_hexString: "#DFDFDF")}
     }
     
-    class var kColorFF9A03: UIColor {
+    public class var kColorFF9A03: UIColor {
         get {return UIColor.init(lcr_hexString: "#FF9A03")}
     }
     
-    class var kColorFFD426: UIColor {
+    public class var kColorFFD426: UIColor {
         get {return UIColor.init(lcr_hexString: "#FFD426")}
     }
     
-    class var kColor391F8E: UIColor {
+    public class var kColor391F8E: UIColor {
         get {return UIColor.init(lcr_hexString: "#391F8E")}
     }
 
-    class var kColor2F1877: UIColor {
+    public class var kColor2F1877: UIColor {
         get {return UIColor.init(lcr_hexString: "#2F1877")}
     }
     
-    class var kColor352175: UIColor {
+    public class var kColor352175: UIColor {
         get {return UIColor.init(lcr_hexString: "#352175")}
     }
     
-    class var kColorC4B2FF: UIColor {
+    public class var kColorC4B2FF: UIColor {
         get {return UIColor.init(lcr_hexString: "#C4B2FF")}
     }
     
-    class var kColor4E78DC: UIColor {
+    public class var kColor4E78DC: UIColor {
         get {return UIColor.init(lcr_hexString: "#4E78DC")}
     }
     
-    class var kColor1F53CC: UIColor {
+    public class var kColor1F53CC: UIColor {
         get {return UIColor.init(lcr_hexString: "#1F53CC")}
     }
     
-    class var kColor2E4FB5: UIColor {
+    public class var kColor2E4FB5: UIColor {
         get {return UIColor.init(lcr_hexString: "#2E4FB5")}
     }
     
-    class var kColorE4C297: UIColor {
+    public class var kColorE4C297: UIColor {
         get {return UIColor.init(lcr_hexString: "#E4C297")}
     }
     
-    class var kColor295EDB: UIColor {
+    public class var kColor295EDB: UIColor {
         get {return UIColor.init(lcr_hexString: "#295EDB")}
     }
     
-    class var kColorF9BF00: UIColor {
+    public class var kColorF9BF00: UIColor {
         get {return UIColor.init(lcr_hexString: "#F9BF00")}
     }
     
-    class var kColorFBFFD5: UIColor {
+    public class var kColorFBFFD5: UIColor {
         get {return UIColor.init(lcr_hexString: "#FBFFD5")}
     }
-    class var kColor197DEF: UIColor {
+    public class var kColor197DEF: UIColor {
         get {return UIColor.init(lcr_hexString: "#197DEF")}
     }
     
     
-    class var kColorDEA545: UIColor {
+    public class var kColorDEA545: UIColor {
         get {return UIColor.init(lcr_hexString: "#DEA545")}
     }
     
-    class var kColorF5E2BE: UIColor {
+    public class var kColorF5E2BE: UIColor {
         get {return UIColor.init(lcr_hexString: "#F5E2BE")}
     }
     
-    class var kColor098CEE: UIColor {
+    public class var kColor098CEE: UIColor {
         get {return UIColor.init(lcr_hexString: "#098CEE")}
     }
     
-    class var kColor2986FF: UIColor {
+    public class var kColor2986FF: UIColor {
         get {return UIColor.init(lcr_hexString: "#2986FF")}
     }
     
-    class var kColor8888AE: UIColor {
+    public class var kColor8888AE: UIColor {
         get {return UIColor.init(lcr_hexString: "#8888AE")}
     }
     
-    class var kColorFFE4A4: UIColor {
+    public class var kColorFFE4A4: UIColor {
         get {return UIColor.init(lcr_hexString: "#FFE4A4")}
     }
     
     
-    class var kColor18C5FF: UIColor {
+    public class var kColor18C5FF: UIColor {
         get {return UIColor.init(lcr_hexString: "#18C5FF")}
     }
     
-    class var kColor004E97: UIColor {
+    public class var kColor004E97: UIColor {
         get {return UIColor.init(lcr_hexString: "#004E97")}
     }
 
-    class var kColorFE931F: UIColor {
+    public class var kColorFE931F: UIColor {
         get {return UIColor.init(lcr_hexString: "#FE931F")}
     }
-    class var kColor3CAEFF: UIColor {
+    public class var kColor3CAEFF: UIColor {
         get {return UIColor.init(lcr_hexString: "#3CAEFF")}
     }
     
-    class var kColor59BCFF: UIColor {
+    public class var kColor59BCFF: UIColor {
         get {return UIColor.init(lcr_hexString: "#59BCFF")}
     }
-    class var kColor999999: UIColor {
+    public class var kColor999999: UIColor {
         get {return UIColor.init(lcr_hexString: "#999999")}
     }
     
-    class var kColor434360: UIColor {
+    public class var kColor434360: UIColor {
         get {return UIColor.init(lcr_hexString: "#434360")}
     }
     
-    class var kColorC8C8C8: UIColor {
+    public class var kColorC8C8C8: UIColor {
         get {return UIColor.init(lcr_hexString: "#C8C8C8")}
     }
     
-    class var kColorDEA04B: UIColor {
+    public class var kColorDEA04B: UIColor {
         get {return UIColor.init(lcr_hexString: "#DEA04B")}
     }
     
-    class var kColor363636: UIColor {
+    public class var kColor363636: UIColor {
         get {return UIColor.init(lcr_hexString: "#363636")}
     }
     
-    class var kColor211654: UIColor {
+    public class var kColor211654: UIColor {
         get {return UIColor.init(lcr_hexString: "#211654")}
     }
     
-    class var kColorCF2FA9: UIColor {
+    public class var kColorCF2FA9: UIColor {
         get {return UIColor.init(lcr_hexString: "#CF2FA9")}
     }
     
-    class var kColor302365: UIColor {
+    public class var kColor302365: UIColor {
         get {return UIColor.init(lcr_hexString: "#302365")}
     }
     
-    class var kColorA68AFF: UIColor {
+    public class var kColorA68AFF: UIColor {
         get {return UIColor.init(lcr_hexString: "#A68AFF")}
     }
     
-    class var kColor385B92: UIColor {
+    public class var kColor385B92: UIColor {
         get {return UIColor.init(lcr_hexString: "#385B92")}
     }
     
-    class var kColor6E798A: UIColor {
+    public class var kColor6E798A: UIColor {
         get {return UIColor.init(lcr_hexString: "#6E798A")}
     }
     
-    class var kColorB1B9C5: UIColor {
+    public class var kColorB1B9C5: UIColor {
         get {return UIColor.init(lcr_hexString: "#B1B9C5")}
     }
     
-    class var kColorFF7003: UIColor {
+    public class var kColorFF7003: UIColor {
         get {return UIColor.init(lcr_hexString: "#FF7003")}
     }
-    class var kColorD3D9E1: UIColor {
+    public class var kColorD3D9E1: UIColor {
         get {return UIColor.init(lcr_hexString: "#D3D9E1")}
     }
     
-    class var kColor4F565D: UIColor {
+    public class var kColor4F565D: UIColor {
         get {return UIColor.init(lcr_hexString: "#4F565D")}
     }
     
-    class var kColor989FA5: UIColor {
+    public class var kColor989FA5: UIColor {
         get {return UIColor.init(lcr_hexString: "#989FA5")}
     }
     
-    class var kColorF859A3: UIColor {
+    public class var kColorF859A3: UIColor {
         get {return UIColor.init(lcr_hexString: "#F859A3")}
     }
     
-    class var kColorEFEFE4: UIColor {
+    public class var kColorEFEFE4: UIColor {
         get {return UIColor.init(lcr_hexString: "#EFEFE4")}
     }
     
-    class var kColorFFACD3: UIColor {
+    public class var kColorFFACD3: UIColor {
         get {return UIColor.init(lcr_hexString: "#FFACD3")}
     }
     
-    class var kColorFFE8F3: UIColor {
+    public class var kColorFFE8F3: UIColor {
         get {return UIColor.init(lcr_hexString: "#FFE8F3")}
     }
     
-    class var kColorBB3372: UIColor {
+    public class var kColorBB3372: UIColor {
         get {return UIColor.init(lcr_hexString: "#BB3372")}
     }
     
-    class var kColor0368FF: UIColor {
+    public class var kColor0368FF: UIColor {
         get {return UIColor.init(lcr_hexString: "#0368FF")}
     }
     
-    class var kColor9B83E6: UIColor {
+    public class var kColor9B83E6: UIColor {
         get {return UIColor.init(lcr_hexString: "#9B83E6")}
     }
     
-    class var kColor7058C2: UIColor {
+    public class var kColor7058C2: UIColor {
         get {return UIColor.init(lcr_hexString: "#7058C2")}
     }
     
-    class var kColor3C454D: UIColor {
+    public class var kColor3C454D: UIColor {
         get {return UIColor.init(lcr_hexString: "#3C454D")}
     }
     
-    class var kColor9C8BD6: UIColor {
+    public class var kColor9C8BD6: UIColor {
         get {return UIColor.init(lcr_hexString: "#9C8BD6")}
     }
     
-    class var kColorFF662D: UIColor {
+    public class var kColorFF662D: UIColor {
         get {return UIColor.init(lcr_hexString: "#FF662D")}
     }
    
-    class var kColor3EDB72: UIColor {
+    public class var kColor3EDB72: UIColor {
         get {return UIColor.init(lcr_hexString: "#3EDB72")}
     }
    
-    class var kColorF8F134: UIColor {
+    public class var kColorF8F134: UIColor {
         get {return UIColor.init(lcr_hexString: "#F8F134")}
     }
 
-    class var kColor3BD7FF: UIColor {
+    public class var kColor3BD7FF: UIColor {
         get {return UIColor.init(lcr_hexString: "#3BD7FF")}
     }
     
-    class var kColor4E369B: UIColor {
+    public class var kColor4E369B: UIColor {
         get {return UIColor.init(lcr_hexString: "#4E369B")}
     }
     
-    class var kColor69727A: UIColor {
+    public class var kColor69727A: UIColor {
         get {return UIColor.init(lcr_hexString: "#69727A")}
     }
     
-    class var kColorFFCCE5: UIColor {
+    public class var kColorFFCCE5: UIColor {
         get {return UIColor.init(lcr_hexString: "#FFCCE5")}
     }
     
-    class var kColorFF9900: UIColor {
+    public class var kColorFF9900: UIColor {
         get {return UIColor.init(lcr_hexString: "#FF9900")}
     }
    
-    class var kColorA77708: UIColor {
+    public class var kColorA77708: UIColor {
         get {return UIColor.init(lcr_hexString: "#A77708")}
     }
     
-    class var kColor754CF6: UIColor {
+    public class var kColor754CF6: UIColor {
         get {return UIColor.init(lcr_hexString: "#754CF6")}
     }
     
-    class var kColor3A208E: UIColor {
+    public class var kColor3A208E: UIColor {
         get {return UIColor.init(lcr_hexString: "#3A208E")}
     }
     
-    class var kColor593EB2: UIColor {
+    public class var kColor593EB2: UIColor {
         get {return UIColor.init(lcr_hexString: "#593EB2")}
     }
     
-    class var kColor8529FF: UIColor {
+    public class var kColor8529FF: UIColor {
         get {return UIColor.init(lcr_hexString: "#8529FF")}
     }
     
-    class var kColorB69EFF: UIColor {
+    public class var kColorB69EFF: UIColor {
         get {return UIColor.init(lcr_hexString: "#B69EFF")}
     }
     
-    class var kColor4D32A5: UIColor {
+    public class var kColor4D32A5: UIColor {
         get {return UIColor.init(lcr_hexString: "#4D32A5")}
     }
     
-    class var kColor3D2392: UIColor {
+    public class var kColor3D2392: UIColor {
         get {return UIColor.init(lcr_hexString: "#3D2392")}
     }
     
-    class var kColor24D492: UIColor {
+    public class var kColor24D492: UIColor {
         get {return UIColor.init(lcr_hexString: "#24D492")}
     }
     
-    class var kColor8B75D4: UIColor {
+    public class var kColor8B75D4: UIColor {
         get {return UIColor.init(lcr_hexString: "#8B75D4")}
     }
     
-    class var kColor331C7E: UIColor {
+    public class var kColor331C7E: UIColor {
         get {return UIColor.init(lcr_hexString: "#331C7E")}
     }
     
-    class var kColor4F379D: UIColor {
+    public class var kColor4F379D: UIColor {
         get {return UIColor.init(lcr_hexString: "#4F379D")}
     }
 }
